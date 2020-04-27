@@ -1,0 +1,5 @@
+<launch>
+  <node name="imu_9dof_node" pkg="adafruit_9dof_imu" type="imu_9dof_node" />
+  <rosparam command="load" file="$(find adafruit_9dof_imu)/config/imu_settings.yaml" />
+
+</launch>
